@@ -29,14 +29,14 @@ class DevPleno(Programador):
         print('Enviando tickets para a equipe')
 
 
-class Junior(Estagio):
+class Tester(Estagio):
     pass
 
 class Senior(DevJunior, DevPleno):
     pass
 
 
-aline = Junior()
+aline = Tester()
 aline.mostrar_tarefas()
 aline.busca_tickets_do_dia()
 aline.registra_horas(12)
